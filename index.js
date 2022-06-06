@@ -18,7 +18,6 @@
     saveEl.textContent += countTotal;
     countEl.textContent = 0;
     count = 0; 
-    totalAcumulado()
   }
 
 
