@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Passenger Counter</title>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="./assets/img/logo.png" alt="">
+    </div>
+
+    <div class="config">
+      <div class="avatar">
+        <a href="#"><img src="./assets/img/eu.jpeg" alt="user-avatar"></a>
+      </div>
+
+      <span class="login-btn">
+        <a href="#">
+          <img src="./assets/img/login.png" alt="login-button">
+        </a>
+      </span>
+    </div>
+    </div>
+
+  </header>
+  <main>
+    <h1>Passenger Counter</h1>
+    <div class="container">
+      <div class="container-title">
+        <h1>People Entered:</h1>
+        <h2 id="count-el">0</h2>
+        <button onclick="increment()">INCREMENT</button>
+        <button onclick="saveData()">SAVE</button>
+        <p id="save-el">Previous entries: </p>
+      </div>
+    </div>
+  </main>
+
+ <script src="./index.js"></script>
+</body>
+</html>
